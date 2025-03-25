@@ -22,7 +22,7 @@ const LogoutButton = () => {
       
       //   then, we will check the error message, if we have, we will show this and simply return. 
     //   if, we don't have this means we are logged out successfully
-    let errorMessage = null;
+    const errorMessage = null;
     if (errorMessage === null) {
       toast.success("Success", {
         description: "Your are logged out successfully",
